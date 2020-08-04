@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* p {
+  border: 1px solid black;
+  text-align: right;
+} */
+
+.row {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    margin: 15px;
+  }
+  .col-lg-4 {
+    width: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    border: 1px solid black;
+    margin: 15px;
+  }
+  .col-md-6 {
+    width: 46%;
+  }
+  .col-md-6:last-child {
+    width: 95%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    border: 1px solid black;
+    width: 95%;
+    margin: 15px;
+  }
+}
+.cont {
+  padding: 10px;
+  padding-top: 25px;
+  color: rgb(165, 42, 93);
+}
+.hed1,
+.hed2,
+.hed3 {
+  width: 95px;
+  text-align: center;
+  border: 1px solid black;
+  float: right;
+  background-color: red;
+  padding: 3px;
+}
+.col-lg-4,
+.col-md-6,
+.col-sm-12,
+.cont {
+  background-color: rgba(128, 128, 128, 0.21);
+}
+.hed1 {
+  background-color: green;
+  color: white;
+}
+.hed2 {
+  background-color: red;
+  color: white;
+}
+.hed3 {
+  background-color: blue;
+  color: white;
+}
