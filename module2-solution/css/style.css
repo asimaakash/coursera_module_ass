@@ -18,54 +18,63 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    border: 1px solid black;
-    margin: 15px;
+    border: 3px solid black;
+    margin: 10px;
+    min-height: 190px;
   }
   .col-lg-4 {
-    width: 30%;
+    width: 30.4%;
+  }
+  .col-lg-4:first-child {
+    margin-left: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 15px;
   }
   .col-md-6 {
     width: 46%;
+    min-height: 177px;
   }
   .col-md-6:last-child {
     width: 95%;
+    min-height: 90px;
+    max-height: 120px;
   }
 }
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
-    border: 1px solid black;
+    border: 3px solid black;
     width: 95%;
     margin: 15px;
   }
 }
 .cont {
-  padding: 10px;
-  padding-top: 25px;
-  color: rgb(165, 42, 93);
+  padding: 15px;
+  padding-top: 30px;
+  color: rgba(11, 72, 193, 1);
+  font-weight: 600;
 }
 .hed1,
 .hed2,
 .hed3 {
   width: 95px;
   text-align: center;
-  border: 1px solid black;
+  border: 3px solid black;
   float: right;
-  background-color: red;
+
   padding: 3px;
+  font-size: 17px;
+  font-weight: bolder;
 }
 .col-lg-4,
 .col-md-6,
-.col-sm-12,
-.cont {
-  background-color: rgba(128, 128, 128, 0.21);
+.col-sm-12 {
+  background-color: rgba(128, 128, 128, 0.71);
 }
 .hed1 {
   background-color: green;
@@ -76,6 +85,6 @@ h1 {
   color: white;
 }
 .hed3 {
-  background-color: blue;
+  background-color: orange;
   color: white;
 }
