@@ -7,11 +7,6 @@ h1 {
   text-align: center;
   margin-bottom: 15px;
 }
-/* p {
-  border: 1px solid black;
-  text-align: right;
-} */
-
 .row {
   width: 100%;
 }
@@ -20,7 +15,7 @@ h1 {
     float: left;
     border: 3px solid black;
     margin: 10px;
-    min-height: 220px;
+    min-height: 250px;
   }
   .col-lg-4 {
     width: 30.4%;
