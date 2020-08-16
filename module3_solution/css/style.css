@@ -77,12 +77,9 @@ header {
     height: 80px;
   }
   #menu_chicken,
-  #menu_meat,
-  #menu_sushi {
-    min-height: 900px;
+  #menu_meat {
+    min-height: 580px;
   }
-  #menu_chicken,
-  #menu_meat,
   #menu_sushi:last-child {
     min-height: 300px;
   }
