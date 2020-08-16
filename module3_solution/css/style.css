@@ -30,6 +30,9 @@ header {
   font-size: 45px;
   color: rgb(236, 12, 12);
 }
+#container {
+  margin: 0 15px;
+}
 #menu_chicken,
 #menu_meat,
 #menu_sushi {
