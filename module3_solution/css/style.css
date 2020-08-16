@@ -31,7 +31,7 @@ header {
   color: rgb(236, 12, 12);
 }
 #container {
-  margin: 0 15px;
+  margin: 0 25px;
 }
 #menu_chicken,
 #menu_meat,
@@ -98,5 +98,8 @@ header {
     /* Restaurant name */
     padding-top: 5px;
     font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  #container {
+    margin: 60px;
   }
 }
