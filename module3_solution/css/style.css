@@ -1,0 +1,102 @@
+body {
+  background-color: #3f0c1f;
+}
+header {
+  background-color: #f6b319;
+  width: 100%;
+}
+.navbar {
+  background-color: #f6b319;
+}
+.navbar-brand h1 {
+  color: #557c3e;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+#nav-list {
+  text-align: center;
+}
+#nav-list hr {
+  margin: 0px;
+}
+
+#heading {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(236, 12, 12);
+}
+#menu_chicken,
+#menu_meat,
+#menu_sushi {
+  width: 100%;
+  margin: 0 auto 15px;
+  position: relative;
+  border: 1px solid;
+  background-color: #8a103c;
+  background-color: ;
+  opacity: 0.7;
+  color: #cccccc;
+  padding: 8px;
+}
+.h_chicken,
+.h_meat,
+.h_sushi {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+#menu_chicken:hover,
+#menu_meat:hover,
+#menu_sushi:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/********** large devices only **********/
+@media (min-width: 992px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 5px;
+    height: 80px;
+  }
+  #menu_chicken,
+  #menu_meat,
+  #menu_sushi {
+    height: 700px;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 5px;
+    height: 80px;
+  }
+  #menu_chicken,
+  #menu_meat,
+  #menu_sushi {
+    min-height: 900px;
+  }
+  #menu_chicken,
+  #menu_meat,
+  #menu_sushi:last-child {
+    min-height: 300px;
+  }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 5px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+}
